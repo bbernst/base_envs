@@ -1,6 +1,7 @@
 # nix-channel --update nixpkgs
 # nix-shell default.nix
-# ^^ alias nixpy38='nix-shell $HOME/Development/base_envs/default.nix'
+# alias nixpy38='nix-shell $HOME/Development/base_envs/default.nix'
+#       ^^ nix{name}
 
 with import <nixpkgs> {};
 with stdenv.lib;
