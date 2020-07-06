@@ -1,6 +1,6 @@
-# envs
+# base_envs
 
-## Python environment using nix and virtualenv(wrapper)
+## Python environments using nix and virtualenv(wrapper)
 * Nix install at https://nixos.org/download.html
 * Requirements are personal preference
 * jupyter_rename.py adds the env name to the jupyter display

@@ -1,6 +1,6 @@
 # nix-channel --update nixpkgs
 # nix-shell default.nix
-# ^^ create an alias
+# ^^ alias nixpy38='nix-shell $HOME/Development/base_envs/default.nix'
 
 with import <nixpkgs> {};
 with stdenv.lib;
@@ -24,7 +24,7 @@ stdenv.mkDerivation rec {
     SOURCE_DATE_EPOCH=$(date +%s)
 
     # ENV_HOME
-    export ENV_HOME="$PWD"
+    export ENV_HOME="$HOME/Development/base_envs"
     export PYTHONPATH="$PYTHONPATH:$ENV_HOME"
 
     # use virtualenvwrapper to manage envs
@@ -35,8 +35,8 @@ stdenv.mkDerivation rec {
     # install
     mkvirtualenv ${name}
     workon ${name}
-    python3 -m pip install -r "${req_location}"
-    python jupyter_rename.py --name=${name}
+    python3 -m pip install -r "$ENV_HOME/${req_location}"
+    python $ENV_HOME/jupyter_rename.py --name=${name}
 
     # prompt that says the derivation
     PS1="\[\033[1;34m\][nix-shell-${name}:\w]\n\$ \[\033[0m\]"
