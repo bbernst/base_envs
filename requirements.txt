@@ -9,8 +9,10 @@ mypy==0.782
 nbdev==0.2.18
 networkx==2.4
 notebook==6.0.3
+pandas-gbq==0.13.1
 pandas==1.0.5
 plotnine[all]==0.7.0
+pydata-google-auth==1.1.0
 pytest==5.4.3
 scikit-learn==0.23.1
 scikit-optimize==0.7.4
