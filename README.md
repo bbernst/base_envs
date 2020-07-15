@@ -12,8 +12,7 @@
 0. bash ~/Downloads/miniconda.sh
 0. conda config --set auto_activate_base false
 0. source ~/.zrsh
-0. conda env create -f environment38.yml
-    * conda env create -f environment37.yml
+0. conda env create -f environment.yml
 
 ## Python environments using nix and virtualenv(wrapper)
 0. Nix install at https://nixos.org/download.html
