@@ -29,6 +29,7 @@ dependencies:
   - scikit-learn
   - scikit-optimize
   - scipy
+  - skorch
   - spacy
   - spacy-lookups-data
   - statsmodels
@@ -38,6 +39,7 @@ dependencies:
   - vega
   - pip:
     - fastapi
+    - finetune
     - hypothesis
     - jax
     - jaxlib
