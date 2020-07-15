@@ -1,0 +1,50 @@
+name: py38
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - fastai
+dependencies:
+  - python=3.8 # python version
+  - aiohttp[speedups]
+  - altair
+  - autopep8
+  - fastai
+  - fire
+  - flake8
+  - jupyter_contrib_nbextensions
+  - mypy
+  - nb_conda
+  - networkx
+  - notebook
+  - numpy
+  - pandas
+  - pandas-gbq
+  - pip
+  - plotnine
+  - pydata-google-auth
+  - pymc3
+  - pytest
+  - pytorch-lightning
+  - scikit-learn
+  - scikit-optimize
+  - scipy
+  - spacy
+  - spacy-lookups-data
+  - statsmodels
+  - pytorch
+  - torchvision
+  - tqdm
+  - vega
+  - pip:
+    - fastapi
+    - hypothesis
+    - jax
+    - jaxlib
+    - nbdev
+    - scispacy
+    - streamlit
+    - textacy
+    - typer
+    - uvicorn
+    - xgboost
