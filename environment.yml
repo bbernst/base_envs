@@ -38,6 +38,7 @@ dependencies:
   - tqdm
   - vega
   - pip:
+    - cmdstanpy[all]
     - fastapi
     - finetune
     - hypothesis
