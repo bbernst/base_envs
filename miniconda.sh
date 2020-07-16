@@ -15,4 +15,5 @@ conda init
 conda config --set auto_activate_base false
 source "~/.${SHELL_NAME}rc"
 conda env create -f environment.yml
+# pip list --format=freeze > conda_requirements.txt
 rm ~/miniconda.sh

@@ -13,6 +13,8 @@
 0. conda config --set auto_activate_base false
 0. source ~/.zrsh
 0. conda env create -f environment.yml
+0. pip list --format=freeze > conda_requirements.txt
+0. rm ~/Downloads/miniconda.sh
 
 ## Python environments using nix and virtualenv(wrapper)
 0. Nix install at https://nixos.org/download.html
