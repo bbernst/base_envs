@@ -18,5 +18,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     conda init zsh
 fi
 conda config --set auto_activate_base false
+source ${HOME}/.${SHELL_NAME}rc
 conda env create -f environment.yml
 # pip list --format=freeze > conda_requirements.txt

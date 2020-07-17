@@ -38,6 +38,7 @@ entrypoints==0.3
 enum-compat==0.0.3
 fastai==1.0.61
 fastapi==0.59.0
+fastcache==1.1.0
 fastprogress==0.2.3
 fastscript==0.1.4
 finetune==0.8.6
@@ -64,8 +65,8 @@ ipykernel==5.3.2
 ipython==7.16.1
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
-jax==0.1.72
-jaxlib==0.1.51
+jax==0.1.57
+jaxlib==0.1.37
 jedi==0.17.1
 jellyfish==0.8.2
 Jinja2==2.11.2
@@ -109,6 +110,7 @@ nmslib==2.0.6
 notebook==6.0.3
 numexpr==2.7.1
 numpy==1.18.5
+numpyro==0.2.4
 oauthlib==3.1.0
 olefile==0.46
 opt-einsum==3.2.1
