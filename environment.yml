@@ -7,7 +7,6 @@ channels:
 dependencies:
   - python=3.8 # python version
   - aiohttp[speedups]
-  - altair
   - autopep8
   - fastai
   - fire
@@ -36,8 +35,8 @@ dependencies:
   - pytorch
   - torchvision
   - tqdm
-  - vega
   - pip:
+    - altair
     - cmdstanpy[all]
     - fastapi
     - finetune
@@ -50,4 +49,5 @@ dependencies:
     - textacy
     - typer
     - uvicorn
+    - vega
     - xgboost
