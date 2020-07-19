@@ -20,4 +20,5 @@ fi
 conda config --set auto_activate_base false
 source ${HOME}/.${SHELL_NAME}rc
 conda env create -f environment.yml
-# pip list --format=freeze > conda_requirements.txt
+# pip list --format=freeze > requirements_conda.txt
+# conda env export --no-builds | grep -v "^prefix: " > environment_versioned.yml
