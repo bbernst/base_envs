@@ -7,14 +7,12 @@
 
 ## Miniconda install
 
-0. curl -o ~/Downloads/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-0. shasum -a 256 ~/Downloads/miniconda.sh
-0. bash ~/Downloads/miniconda.sh
-0. conda config --set auto_activate_base false
-0. source ~/.zrsh
-0. conda env create -f environment.yml
-0. pip list --format=freeze > conda_requirements.txt
-0. rm ~/Downloads/miniconda.sh
+0. Run miniconda.sh
+0. Helpful commands
+    * `pip list --format=freeze > requirements_conda.txt`
+    * `conda env export --no-builds | grep -v "^prefix: " > environment_versioned.yml`
+        * In case of `InvalidVersionSpec: Invalid version 'ERROR_HERE': invalid character(s)` do `grep -nr 'ERROR_HERE' ~/miniconda/envs` and fix it there or uninstall the package
+
 
 ## Python environments using nix and virtualenv(wrapper)
 0. Nix install at https://nixos.org/download.html

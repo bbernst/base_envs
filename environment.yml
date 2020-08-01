@@ -6,48 +6,51 @@ channels:
   - fastai
 dependencies:
   - python=3.8 # python version
-  - aiohttp[speedups]
-  - autopep8
-  - fastai
-  - fire
-  - flake8
-  - jupyter_contrib_nbextensions
-  - mypy
-  - nb_conda
-  - networkx
-  - notebook
-  - numpy
-  - pandas
-  - pandas-gbq
   - pip
-  - plotnine
-  - pydata-google-auth
-  - pymc3
-  - pytest
-  - pytorch-lightning
-  - scikit-learn
-  - scikit-optimize
-  - scipy
-  - skorch
-  - spacy
-  - spacy-lookups-data
-  - statsmodels
+  - notebook
+  - jupyterlab
+  - nb_conda
+  - jupyter_contrib_nbextensions
+  - fastai
   - pytorch
   - torchvision
-  - tqdm
   - pip:
+    - aiohttp[speedups]
+    - autopep8
     - altair
     - cmdstanpy[all]
     - fastapi
     - finetune
+    - fire
+    - flake8
     - hypothesis
     - jax
     - jaxlib
+    - lifelines
+    - lifetimes
+    - mypy
+    - networkx
     - nbdev
+    - numpy
     - numpyro
+    - pandas
+    - pandas-gbq
+    - plotnine[all]
+    - pydata-google-auth
+    - pymc3
+    - pytest
+    - pytorch-lightning
+    - scikit-learn
+    - scikit-optimize
+    - scipy
     - scispacy
+    - skorch
+    - spacy
+    - spacy-lookups-data
+    - statsmodels
     - streamlit
     - textacy
+    - tqdm
     - typer
     - uvicorn
     - vega
