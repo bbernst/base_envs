@@ -23,6 +23,7 @@ dependencies:
     - finetune
     - fire
     - flake8
+    - google-cloud-bigquery-storage
     - hypothesis
     - jax
     - jaxlib
