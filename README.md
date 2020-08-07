@@ -6,7 +6,6 @@
     * `.vscode/` ignored as well
 
 ## Miniconda install
-
 0. Run miniconda.sh
 0. Helpful commands
     * `pip list --format=freeze > requirements_conda.txt`
@@ -19,3 +18,16 @@
 0. Setup assumes `$HOME/Development` path exists
     * If being used in a project repo then can use `$PWD` since would be called from the same PATH
 0. jupyter_rename.py adds the env name to the jupyter display name
+
+
+## Python environments using brew and pipenv (come back to this, slow)
+0. `brew install python@3.8` (python@VERSION_NUMBER)
+    * Might need: `brew unlink python && brew link python@3.8`
+    * Might need: `brew unlink python && brew link --force python@3.8`
+    * Might need: `brew unlink python && brew link --overwrite python@3.8` (`--dry-run`)
+0. For .zshrc: `export PATH="/usr/local/opt/python/libexec/bin:$PATH"`
+    * This makes it so `python` is python3.8
+0. Need pip installed already
+0. `pip install pipenv`
+0. `pipenv --python 3.8`
+0. `pipenv install`
