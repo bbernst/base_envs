@@ -27,3 +27,4 @@
         1. Follow instructions and remember `set -g @continuum-restore 'on'`
 1. `git clone https://github.com/bbernst/base_envs.git`
     1. Python env with `./miniconda.sh`
+1. New github ssh https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
