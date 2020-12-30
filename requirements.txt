@@ -8,7 +8,7 @@ hypothesis==5.19.0
 mypy==0.782
 nbdev==0.2.18
 networkx==2.4
-notebook==6.0.3
+notebook==6.1.5
 pandas-gbq==0.13.1
 pandas==1.0.5
 plotnine[all]==0.7.0
