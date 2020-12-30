@@ -40,5 +40,4 @@
     1. Conda env install
         1. Python env with `./miniconda.sh` and `environment.yml`
     1. Nix env install
-        1. Uses `python.nix`
-        1. Uses `pythonr.nix`
+        1. Uses `default.nix`
