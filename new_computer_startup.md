@@ -30,8 +30,15 @@
         1. `set -g @plugin 'tmux-plugins/tmux-resurrect'`
         1. `set -g @plugin 'tmux-plugins/tmux-continuum'`
         1. `set -g @continuum-restore 'on'`
-1. `git clone git@github.com:bbernst/base_envs.git`
-    1. Python env with `./miniconda.sh`
-    1. Uses `environment.yml` for the env
 1. New github ssh https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-# 1. Get nix (https://nixos.org/download.html)
+1. Get nix (https://nixos.org/download.html)
+    1. Installation is complicated until they figure it out
+        1. https://dubinets.io/installing-nix-on-macos-catalina/
+        1. https://nixos.org/manual/nix/stable/#sect-macos-installation
+        1. sh <(curl -L https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
+1. `git clone git@github.com:bbernst/base_envs.git`
+    1. Conda env install
+        1. Python env with `./miniconda.sh` and `environment.yml`
+    1. Nix env install
+        1. Uses `python.nix`
+        1. Uses `pythonr.nix`
