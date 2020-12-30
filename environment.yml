@@ -27,6 +27,7 @@ dependencies:
     - flake8
     - google-cloud-bigquery-storage
     - hypothesis
+    - isort
     - jax
     - jaxlib
     - lifelines

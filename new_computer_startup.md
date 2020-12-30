@@ -5,6 +5,8 @@
 1. KeepingYouAwake
 1. VSCode
     1. Install code in PATH via installer
+    1. Atom shortcuts
+    1. GitLens, Python, Pyright, Rainbow CSV, indent-rainbow, python indent
 1. iTerm2
 1. Spotify
 1. Workflowy
@@ -20,11 +22,16 @@
     1. `alias jupnb='jupyter notebook'`
 1. zsh-syntax-highlighting as last plugin (using oh my zsh install method not brew)
 1. `brew install tmux`
-    1. https://github.com/tmux-plugins/tpm
-        1. Color fix with `set -g default-terminal "screen-256color"`
+    1. Install tpm to get .tmux.conf (https://github.com/tmux-plugins/tpm)
     1. https://github.com/tmux-plugins/tmux-resurrect
     1. https://github.com/tmux-plugins/tmux-continuum
-        1. Follow instructions and remember `set -g @continuum-restore 'on'`
+    1. Add to .tmux.conf
+        1. `set -g default-terminal "screen-256color"`
+        1. `set -g @plugin 'tmux-plugins/tmux-resurrect'`
+        1. `set -g @plugin 'tmux-plugins/tmux-continuum'`
+        1. `set -g @continuum-restore 'on'`
 1. `git clone git@github.com:bbernst/base_envs.git`
     1. Python env with `./miniconda.sh`
+    1. Uses `environment.yml` for the env
 1. New github ssh https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+# 1. Get nix (https://nixos.org/download.html)
