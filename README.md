@@ -20,7 +20,7 @@
 0. jupyter_rename.py adds the env name to the jupyter display name
 
 
-## Python environments using brew and pipenv (come back to this, slow)
+## Python environments using brew and pipenv (come back to this, slow, deprecated))
 0. `brew install python@3.8` (python@VERSION_NUMBER)
     * Might need: `brew unlink python && brew link python@3.8`
     * Might need: `brew unlink python && brew link --force python@3.8`
