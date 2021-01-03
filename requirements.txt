@@ -11,7 +11,7 @@ isort
 jax
 jaxlib
 lifelines
-lifetimes
+Lifetimes
 mypy
 nbdev
 networkx

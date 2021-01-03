@@ -13,14 +13,12 @@ def run(repo: str) -> None:
 
     named_reqs = (
         pd.read_csv(REQ_PATH, names=['req_orig'])
-        .assign(req=lambda d: d['req_orig'].str.split('[').str[0].str.lower())
+        .assign(req=lambda d: d['req_orig'].str.split('[').str[0])
         # ^^ split on [ since some packages have [all] trailing the name
-        # ^^ lower since some packages install with propercase
     )
     pip_freeze = (
         pd.DataFrame(freeze.freeze(), columns=['req_full'])
-        .assign(req=lambda d: d['req_full'].str.split('==').str[0].str.lower(),
-                # ^^ lower since some packages install with propercase
+        .assign(req=lambda d: d['req_full'].str.split('==').str[0],
                 ver=lambda d: d['req_full'].str.split('==').str[1]
                 )
     )
