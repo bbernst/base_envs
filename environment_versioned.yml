@@ -1,286 +1,320 @@
 name: py38
 channels:
   - pytorch
-  - conda-forge
   - fastai
+  - conda-forge
   - defaults
 dependencies:
   - _pytorch_select=0.1
-  - appnope=0.1.0
-  - attrs=19.3.0
+  - appnope=0.1.2
+  - argon2-cffi=20.1.0
+  - arrow-cpp=0.15.1
+  - async_generator=1.10
+  - attrs=20.3.0
   - backcall=0.2.0
-  - beautifulsoup4=4.9.1
+  - beautifulsoup4=4.9.3
   - blas=1.0
-  - bleach=3.1.5
-  - bottleneck=1.3.2
+  - bleach=3.2.1
+  - blinker=1.4
+  - boost-cpp=1.67.0
+  - brotli=1.0.9
   - brotlipy=0.7.0
-  - ca-certificates=2020.6.24
+  - bzip2=1.0.8
+  - c-ares=1.17.1
+  - ca-certificates=2020.12.5
+  - cachetools=4.2.0
   - catalogue=1.0.0
-  - certifi=2020.6.20
-  - cffi=1.14.0
-  - chardet=3.0.4
-  - cryptography=2.9.2
+  - certifi=2020.12.5
+  - cffi=1.14.4
+  - click=7.1.2
+  - conda=4.9.2
+  - conda-build=3.20.5
+  - conda-package-handling=1.7.2
+  - cryptography=3.3.1
   - cycler=0.10.0
-  - cymem=2.0.3
+  - cymem=2.0.4
   - cython-blis=0.4.1
-  - dataclasses=0.7
   - decorator=4.4.2
   - defusedxml=0.6.0
+  - double-conversion=3.1.5
   - entrypoints=0.3
-  - fastai=1.0.61
-  - fastprogress=0.2.4
-  - freetype=2.10.2
+  - fastai=2.0.19
+  - fastavro=1.2.2
+  - fastcore=1.3.13
+  - fastprogress=1.0.0
+  - filelock=3.0.12
+  - freetype=2.10.4
+  - gflags=2.2.2
+  - glob2=0.7
+  - glog=0.4.0
+  - google-api-core=1.22.2
+  - google-api-core-grpc=1.22.2
+  - google-auth=1.21.3
+  - google-auth-oauthlib=0.4.2
+  - google-cloud-bigquery=1.28.0
+  - google-cloud-bigquery-core=1.28.0
+  - google-cloud-core=1.5.0
+  - google-resumable-media=1.2.0
+  - googleapis-common-protos=1.52.0
+  - grpc-cpp=1.26.0
+  - grpcio=1.31.0
   - icu=58.2
   - idna=2.10
-  - importlib-metadata=1.7.0
-  - importlib_metadata=1.7.0
+  - importlib-metadata=2.0.0
+  - importlib_metadata=2.0.0
   - intel-openmp=2019.4
   - ipykernel=5.3.4
-  - ipython=7.16.1
+  - ipython=7.19.0
   - ipython_genutils=0.2.0
-  - jedi=0.17.1
+  - isort=5.6.4
+  - jedi=0.17.2
   - jinja2=2.11.2
+  - joblib=1.0.0
   - jpeg=9b
   - json5=0.9.5
   - jsonschema=3.0.2
-  - jupyter_client=6.1.6
+  - jupyter_client=6.1.7
   - jupyter_contrib_core=0.3.3
   - jupyter_contrib_nbextensions=0.5.1
-  - jupyter_core=4.6.3
+  - jupyter_core=4.7.0
   - jupyter_highlight_selected_word=0.2.0
-  - jupyter_latex_envs=1.4.4
+  - jupyter_latex_envs=1.4.6
   - jupyter_nbextensions_configurator=0.4.1
-  - jupyterlab=2.1.5
+  - jupyterlab=2.2.6
+  - jupyterlab_pygments=0.1.2
   - jupyterlab_server=1.2.0
-  - kiwisolver=1.2.0
+  - kiwisolver=1.3.0
   - lcms2=2.11
+  - libarchive=3.3.3
+  - libboost=1.67.0
   - libcxx=10.0.0
   - libedit=3.1.20191231
+  - libevent=2.1.8
   - libffi=3.3
   - libgfortran=3.0.1
   - libiconv=1.16
+  - liblief=0.10.1
+  - libmklml=2019.0.5
   - libpng=1.6.37
+  - libprotobuf=3.11.2
   - libsodium=1.0.18
   - libtiff=4.1.0
   - libxml2=2.9.10
   - libxslt=1.1.34
-  - lxml=4.5.2
-  - lz4-c=1.9.2
+  - llvm-openmp=10.0.0
+  - lxml=4.6.2
+  - lz4-c=1.8.1.2
+  - lzo=2.10
   - markupsafe=1.1.1
-  - matplotlib=3.2.2
-  - matplotlib-base=3.2.2
+  - matplotlib=3.3.2
+  - matplotlib-base=3.3.2
   - mistune=0.8.4
   - mkl=2019.4
   - mkl-service=2.3.0
-  - mkl_fft=1.1.0
+  - mkl_fft=1.2.0
   - mkl_random=1.1.1
-  - murmurhash=1.0.2
+  - murmurhash=1.0.5
   - nb_conda=2.2.1
-  - nb_conda_kernels=2.2.3
-  - nbconvert=5.6.1
-  - nbformat=5.0.7
+  - nb_conda_kernels=2.3.1
+  - nbclient=0.5.1
+  - nbformat=5.0.8
   - ncurses=6.2
-  - ninja=1.10.0
-  - notebook=6.0.3
-  - numexpr=2.7.1
-  - numpy=1.19.1
-  - numpy-base=1.19.1
-  - nvidia-ml-py3=7.352.0
+  - nest-asyncio=1.4.3
+  - ninja=1.10.2
+  - notebook=6.1.5
+  - oauthlib=3.1.0
   - olefile=0.46
-  - openssl=1.1.1g
-  - packaging=20.4
-  - pandoc=2.10
-  - pandocfilters=1.4.2
+  - openssl=1.1.1i
+  - packaging=20.8
+  - pandas=1.1.5
+  - pandas-gbq=0.14.1
+  - pandoc=2.11
+  - pandocfilters=1.4.3
   - parso=0.7.0
   - pexpect=4.8.0
   - pickleshare=0.7.5
-  - pillow=7.2.0
-  - pip=20.1.1
-  - plac=0.9.6
+  - pillow=8.0.1
+  - pip=20.3.3
+  - pkginfo=1.6.1
+  - plac=1.1.0
   - preshed=3.0.2
-  - prometheus_client=0.8.0
-  - prompt-toolkit=3.0.5
+  - prometheus_client=0.9.0
+  - prompt-toolkit=3.0.8
+  - psutil=5.7.2
   - ptyprocess=0.6.0
+  - py-lief=0.10.1
+  - pyarrow=0.15.1
+  - pyasn1=0.4.8
+  - pyasn1-modules=0.2.8
+  - pycosat=0.6.3
   - pycparser=2.20
-  - pygments=2.6.1
-  - pyopenssl=19.1.0
+  - pydata-google-auth=1.1.0
+  - pygments=2.7.3
+  - pyjwt=1.7.1
+  - pyopenssl=20.0.1
   - pyparsing=2.4.7
-  - pyrsistent=0.16.0
+  - pyrsistent=0.17.3
   - pysocks=1.7.1
-  - python=3.8.3
+  - python=3.8.5
   - python-dateutil=2.8.1
+  - python-libarchive-c=2.9
   - python_abi=3.8
-  - pytorch=1.4.0
-  - pytz=2020.1
+  - pytorch=1.6.0
+  - pytz=2020.4
   - pyyaml=5.3.1
-  - pyzmq=19.0.1
+  - pyzmq=20.0.0
+  - re2=2020.11.01
   - readline=8.0
-  - requests=2.24.0
+  - requests=2.25.1
+  - requests-oauthlib=1.3.0
+  - ripgrep=12.1.1
+  - rsa=4.6
+  - ruamel_yaml=0.15.87
   - send2trash=1.5.0
-  - setuptools=49.2.0
+  - setuptools=51.0.0
   - six=1.15.0
-  - soupsieve=2.0.1
-  - sqlite=3.32.3
-  - srsly=1.0.2
-  - terminado=0.8.3
+  - snappy=1.1.8
+  - soupsieve=2.1
+  - spacy=2.3.5
+  - sqlite=3.33.0
+  - srsly=1.0.5
+  - terminado=0.9.1
   - testpath=0.4.4
-  - thinc=7.4.1
+  - thinc=7.4.5
+  - threadpoolctl=2.1.0
+  - thrift-cpp=0.11.0
   - tk=8.6.10
-  - torchvision=0.5.0
-  - tornado=6.0.4
-  - traitlets=4.3.3
-  - urllib3=1.25.9
-  - wasabi=0.6.0
+  - torchvision=0.7.0
+  - tornado=6.1
+  - traitlets=5.0.5
+  - uriparser=0.9.3
+  - urllib3=1.26.2
+  - wasabi=0.8.0
   - wcwidth=0.2.5
   - webencodings=0.5.1
-  - wheel=0.34.2
+  - wheel=0.36.2
   - xz=5.2.5
   - yaml=0.2.5
-  - zeromq=4.3.2
-  - zipp=3.1.0
+  - zeromq=4.3.3
+  - zipp=3.4.0
   - zlib=1.2.11
-  - zstd=1.4.5
+  - zstd=1.3.7
   - pip:
-    - absl-py==0.9.0
+    - absl-py==0.11.0
     - aiodns==2.0.0
-    - aiohttp==3.6.2
+    - aiohttp==3.7.3
     - altair==4.1.0
-    - arviz==0.9.0
+    - arviz==0.10.0
     - astor==0.8.1
     - async-timeout==3.0.1
     - autograd==1.3
-    - autograd-gamma==0.4.2
-    - autopep8==1.5.3
+    - autograd-gamma==0.5.0
+    - autopep8==1.5.4
     - base58==2.0.1
-    - blinker==1.4
-    - boto3==1.14.33
-    - botocore==1.17.33
     - bs4==0.0.1
-    - cachetools==4.1.1
-    - cchardet==2.1.6
-    - cftime==1.2.1
-    - click==7.1.2
-    - cmdstanpy==0.9.5
-    - cytoolz==0.10.1
+    - cchardet==2.1.7
+    - cftime==1.3.0
+    - chardet==3.0.4
+    - cmdstanpy==0.9.67
+    - cytoolz==0.11.0
     - descartes==1.1.0
-    - dill==0.3.2
-    - docutils==0.15.2
-    - enum-compat==0.0.3
-    - fastapi==0.60.1
-    - fastscript==0.1.5
+    - dill==0.3.3
+    - fastapi==0.63.0
     - finetune==0.8.6
     - fire==0.3.1
-    - flake8==3.8.3
+    - flake8==3.8.4
+    - fsspec==0.8.5
     - ftfy==5.8
     - future==0.18.2
-    - google-api-core==1.22.0
-    - google-auth==1.20.0
-    - google-auth-oauthlib==0.4.1
-    - google-cloud-bigquery==1.26.1
-    - google-cloud-core==1.3.0
-    - google-crc32c==0.1.0
-    - google-resumable-media==0.7.0
-    - googleapis-common-protos==1.52.0
-    - grpcio==1.30.0
-    - h11==0.9.0
-    - h5py==2.10.0
-    - httptools==0.1.1
-    - hypothesis==5.23.8
+    - gitdb==4.0.5
+    - gitpython==3.1.11
+    - google-cloud-bigquery-storage==2.1.0
+    - h11==0.11.0
+    - h5py==3.1.0
+    - hypothesis==5.43.4
     - imbalanced-learn==0.6.2
-    - iniconfig==1.0.1
-    - ipywidgets==7.5.1
-    - jax==0.1.75
-    - jaxlib==0.1.52
+    - iniconfig==1.1.1
+    - ipywidgets==7.6.1
+    - jax==0.2.3
+    - jaxlib==0.1.56
     - jellyfish==0.8.2
-    - jmespath==0.10.0
-    - joblib==0.16.0
     - jupyter==1.0.0
-    - jupyter-console==6.1.0
-    - lifelines==0.25.0
+    - jupyter-console==6.2.0
+    - jupyterlab-widgets==1.0.0
+    - libcst==0.3.16
+    - lifelines==0.25.7
     - lifetimes==0.11.3
-    - markdown==3.2.2
+    - markdown==3.3.3
     - mccabe==0.6.1
-    - mizani==0.7.1
-    - more-itertools==8.4.0
-    - multidict==4.7.6
-    - mypy==0.782
+    - mizani==0.7.2
+    - multidict==5.1.0
+    - mypy==0.790
     - mypy-extensions==0.4.3
-    - nbdev==0.2.20
-    - netcdf4==1.5.4
-    - networkx==2.4
+    - nbconvert==5.6.1
+    - nbdev==1.1.5
+    - netcdf4==1.5.5.1
+    - networkx==2.5
     - nltk==3.5
     - nmslib==2.0.6
-    - numpyro==0.3.0
-    - oauthlib==3.1.0
+    - numpy==1.19.4
+    - numpyro==0.4.1
     - opt-einsum==3.3.0
     - palettable==3.3.0
-    - pandas==1.1.0
-    - pandas-gbq==0.13.2
-    - pathtools==0.1.2
     - patsy==0.5.1
-    - plotnine==0.7.0
+    - plotnine==0.7.1
     - pluggy==0.13.1
-    - protobuf==3.12.4
-    - psutil==5.7.2
-    - py==1.9.0
+    - proto-plus==1.13.0
+    - protobuf==3.14.0
+    - py==1.10.0
     - pyaml==20.4.0
-    - pyarrow==1.0.0
-    - pyasn1==0.4.8
-    - pyasn1-modules==0.2.8
-    - pybind11==2.5.0
+    - pybind11==2.6.1
     - pycares==3.1.1
     - pycodestyle==2.6.0
-    - pydantic==1.6.1
-    - pydata-google-auth==1.1.0
-    - pydeck==0.4.0
+    - pydantic==1.7.3
+    - pydeck==0.5.0
     - pyemd==0.5.1
     - pyflakes==2.2.0
-    - pymc3==3.9.2
-    - pyphen==0.9.5
-    - pysbd==0.2.3
-    - pytest==6.0.1
-    - pytorch-lightning==0.8.5
-    - qtconsole==4.7.5
+    - pymc3==3.10.0
+    - pyphen==0.10.0
+    - pysbd==0.3.3
+    - pytest==6.2.1
+    - pytorch-lightning==1.1.2
+    - qtconsole==5.0.1
     - qtpy==1.9.0
-    - regex==2020.7.14
-    - requests-oauthlib==1.3.0
-    - rsa==4.6
-    - s3transfer==0.3.3
-    - scikit-learn==0.23.1
+    - regex==2020.11.13
+    - scikit-learn==0.22
     - scikit-misc==0.1.3
-    - scikit-optimize==0.7.4
-    - scipy==1.5.2
-    - scispacy==0.2.5
-    - skorch==0.8.0
-    - sortedcontainers==2.2.2
-    - spacy==2.3.2
+    - scikit-optimize==0.8.1
+    - scipy==1.5.4
+    - scispacy==0.3.0
+    - skorch==0.9.0
+    - smmap==3.0.4
+    - sortedcontainers==2.3.0
     - spacy-lookups-data==0.3.2
     - starlette==0.13.6
-    - statsmodels==0.11.1
-    - streamlit==0.64.0
+    - statsmodels==0.12.1
+    - streamlit==0.73.1
     - tabulate==0.8.7
-    - tensorboard==2.3.0
+    - tensorboard==2.4.0
     - tensorboard-plugin-wit==1.7.0
     - termcolor==1.1.0
-    - textacy==0.10.0
-    - theano==1.0.5
-    - threadpoolctl==2.1.0
-    - toml==0.10.1
-    - toolz==0.10.0
-    - tqdm==4.48.0
+    - textacy==0.10.1
+    - theano-pymc==1.0.11
+    - toml==0.10.2
+    - toolz==0.11.1
+    - tqdm==4.55.0
     - typed-ast==1.4.1
-    - typer==0.3.1
-    - typing-extensions==3.7.4.2
+    - typer==0.3.2
+    - typing-extensions==3.7.4.3
+    - typing-inspect==0.6.0
     - tzlocal==2.1
-    - ujson==3.0.0
-    - uvicorn==0.11.8
-    - uvloop==0.14.0
-    - validators==0.16.0
+    - ujson==4.0.1
+    - uvicorn==0.13.2
+    - validators==0.18.2
     - vega==3.4.0
-    - watchdog==0.10.3
-    - websockets==8.1
+    - watchdog==1.0.2
     - werkzeug==1.0.1
     - widgetsnbextension==3.5.1
-    - xarray==0.16.0
-    - xgboost==1.1.1
-    - yarl==1.5.1
+    - xarray==0.16.2
+    - xgboost==1.3.1
+    - yarl==1.6.3
