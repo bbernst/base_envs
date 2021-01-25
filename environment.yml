@@ -11,6 +11,7 @@ dependencies:
   - notebook
   - jupyterlab
   - nb_conda
+  - nbqa
   - jupyter_contrib_nbextensions
   - fastai
   - pytorch
