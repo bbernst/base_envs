@@ -22,7 +22,6 @@ dependencies:
     - altair
     - cmdstanpy[all]
     - fastapi
-    - finetune
     - fire
     - flake8
     - google-cloud-bigquery-storage
@@ -46,8 +45,6 @@ dependencies:
     - scikit-learn
     - scikit-optimize
     - scipy
-    - scispacy
-    - skorch
     - spacy
     - spacy-lookups-data
     - statsmodels
