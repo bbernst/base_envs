@@ -103,7 +103,7 @@ libarchive-c==2.9
 libcst==0.3.16
 lifelines==0.25.7
 Lifetimes==0.11.3
-lxml==4.6.2
+lxml==4.6.3
 Markdown==3.3.3
 MarkupSafe==1.1.1
 matplotlib==3.3.2
