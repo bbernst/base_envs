@@ -199,7 +199,7 @@ typer==0.3.2
 typing-extensions==3.7.4.3
 typing-inspect==0.6.0
 tzlocal==2.1
-urllib3==1.26.3
+urllib3==1.26.4
 uvicorn==0.13.3
 validators==0.18.2
 vega==3.4.0
