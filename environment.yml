@@ -21,9 +21,9 @@ dependencies:
     - aiohttp[speedups]
     - autopep8
     - altair
+    - bambi
     - cmdstanpy[all]
     - fastapi
-    - finetune
     - fire
     - flake8
     - google-cloud-bigquery-storage
