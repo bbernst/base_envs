@@ -47,8 +47,6 @@ dependencies:
     - scikit-learn
     - scikit-optimize
     - scipy
-    - scispacy
-    - skorch
     - spacy
     - spacy-lookups-data
     - statsmodels
