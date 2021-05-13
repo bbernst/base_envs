@@ -166,7 +166,7 @@ pycares==3.1.1
 pycodestyle==2.6.0
 pycosat==0.6.3
 pycparser==2.20
-pydantic==1.7.3
+pydantic==1.7.4
 pydata-google-auth==1.1.0
 pydeck==0.5.0
 pyemd==0.5.1
