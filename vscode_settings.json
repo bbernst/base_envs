@@ -23,5 +23,10 @@
     "python.formatting.autopep8Args": [
         "--max-line-length=120"
     ],
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }
