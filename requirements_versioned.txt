@@ -2,7 +2,7 @@ aiohttp==3.7.4
 altair==4.1.0
 autopep8==1.5.4
 cmdstanpy==0.9.67
-fastapi==0.63.0
+fastapi==0.65.2
 finetune==0.8.6
 fire==0.3.1
 flake8==3.8.4
